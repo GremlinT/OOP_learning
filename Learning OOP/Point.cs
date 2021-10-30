@@ -16,6 +16,13 @@ namespace Learning_OOP
         {
         }
 
+        public Point(Point p)
+        {
+            x = p.x;
+            y = p.y;
+            sym = p.sym;
+        }
+
         public Point(int _x, int _y, char _sym)
         {
             x = _x;
@@ -27,6 +34,26 @@ namespace Learning_OOP
         {
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
+        }
+
+        public void Move(int offset, Directions dir)
+        {
+            if (dir == Directions.UP)
+            {
+                y = y + offset;
+            }
+            if (dir == Directions.DOWN)
+            {
+                y = y - offset;
+            }
+            if (dir == Directions.RIGHT)
+            {
+                x = x + offset;
+            }
+            if (dir == Directions.LEFT)
+            {
+                x = x - offset;
+            }
         }
 
     }

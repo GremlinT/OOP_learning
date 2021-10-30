@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Learning_OOP
 {
-    class VerticalLine
+    class VerticalLine:Figure
     {
-        List<Point> pList;
         public VerticalLine(int x, int yUp, int yDown, char sym)
         {
             pList = new List<Point>();
@@ -16,14 +15,6 @@ namespace Learning_OOP
             {
                 Point p = new Point(x, y, sym);
                 pList.Add(p);
-            }
-        }
-
-        public void Draw()
-        {
-            foreach (Point p in pList)
-            {
-                p.Draw();
             }
         }
     }
