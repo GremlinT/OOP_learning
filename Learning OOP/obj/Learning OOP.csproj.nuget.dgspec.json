@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {}
+    "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {}
   },
   "projects": {
-    "D:\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {
+    "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
+        "projectUniqueName": "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
         "projectName": "Learning OOP",
-        "projectPath": "D:\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
-        "packagesPath": "C:\\Users\\babushkin\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\OOP_learning\\Learning OOP\\obj\\",
+        "projectPath": "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
+        "packagesPath": "C:\\Users\\toxin\\.nuget\\packages\\",
+        "outputPath": "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\babushkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\toxin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
