@@ -40,11 +40,11 @@ namespace Learning_OOP
         {
             if (dir == Directions.UP)
             {
-                y = y + offset;
+                y = y - offset;
             }
             if (dir == Directions.DOWN)
             {
-                y = y - offset;
+                y = y + offset;
             }
             if (dir == Directions.RIGHT)
             {
@@ -55,6 +55,23 @@ namespace Learning_OOP
                 x = x - offset;
             }
         }
+
+        public void Clear()
+        {
+            sym = ' ';
+            Draw();
+        }
+        public void Change(char _sym)
+        {
+            sym = _sym;
+            Draw();
+        }
+
+        public bool IsHit(Point p)
+        {
+            return p.x == this.x && p.y == this.y;
+        }
+
 
     }
 }

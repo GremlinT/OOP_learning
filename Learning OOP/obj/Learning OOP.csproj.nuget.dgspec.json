@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {}
+    "C:\\toxins\\Проекты\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {}
   },
   "projects": {
-    "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {
+    "C:\\toxins\\Проекты\\OOP_learning\\Learning OOP\\Learning OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
+        "projectUniqueName": "C:\\toxins\\Проекты\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
         "projectName": "Learning OOP",
-        "projectPath": "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
-        "packagesPath": "C:\\Users\\toxin\\.nuget\\packages\\",
-        "outputPath": "C:\\Gremlins\\Хобби\\repo\\OOP_learning\\Learning OOP\\obj\\",
+        "projectPath": "C:\\toxins\\Проекты\\OOP_learning\\Learning OOP\\Learning OOP.csproj",
+        "packagesPath": "C:\\Users\\Антон\\.nuget\\packages\\",
+        "outputPath": "C:\\toxins\\Проекты\\OOP_learning\\Learning OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\toxin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Антон\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
